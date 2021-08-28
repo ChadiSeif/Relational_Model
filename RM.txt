@@ -1,0 +1,5 @@
+Hotel( hotel_Id, hotel_name, #Type_id)
+Room(room_Id, floor, #hotel_id, #category_id)
+Type(type_Id, type_name)
+Employee(employee_id, employee_name, employee_speciality, #hotel_id, #director_id)
+Category(category_id, category_name, price, beds,numbers)
